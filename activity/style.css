@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+}
+
+body,html{
+    margin:0px;
+    padding: 0px;
+}
+.tool-panel{
+    height: 70px;
+    border: 1px solid;
+}
+.drawing-area{
+    height: 100vh;
+    border: 1px solid;
+}
