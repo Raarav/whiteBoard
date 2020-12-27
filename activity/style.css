@@ -18,12 +18,12 @@ body,html{
     border: 1px solid;
     align-self: center;
     display: flex;
-    justify-content: center;
 }
 .hamburger-icon{
-    width: 5%;
-    height: 80%;
+    width: 20%;
+    height: 86%;
     border: 1px solid;
+    align-self: center;
 }
 .tool-panel{
 
@@ -32,9 +32,11 @@ body,html{
 
 }
 .tool-img{
-    height: 85%;
-    width: 10%;
+    height: 100%;
+    width: 100%;
+    align-self: center;
 }
 .tool{
-
+    width: 10%;
+    height: 100%;
 }

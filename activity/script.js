@@ -60,3 +60,26 @@ function redraw(){
         }
     }
 }
+
+function underMaker() {
+    // addFirst => unshift,
+    // removeFirst => shift,
+    // addLast => push
+    // removeLast => pop
+    
+    if(points.length >= 2){
+        // pop last line
+        for(let i=points.length-1;i>=0;i--){
+            let { id } = points[i];
+            if(id == "md"){
+                points.pop();
+                break;
+            }
+            points.pop();
+        }
+        // clear Rect
+        ctx.clientReact(0,0,board.width,board.height);
+        //call redraw
+        redraw();
+    }
+}
