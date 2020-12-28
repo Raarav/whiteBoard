@@ -1,4 +1,3 @@
-
 // npm init -y
 // npm install electron --save-dev
 // create main.js file
@@ -17,11 +16,11 @@ function createWindow() {
             nodeIntegration: true
         }
     })
-    
+
     win.loadFile("index.html").then(function () {
         // console.log("Window opened successfully");
         win.maximize();
-        win.webContents.openDevTools();
+        // win.webContents.openDevTools();
     })
 }
 app.whenReady().then(createWindow);
@@ -41,6 +40,6 @@ app.on('activate', () => {
         createWindow()
     }
 })
-app.allowRendererProcessReuse=false;
+
   // In this file you can include the rest of your app's specific main process
   // code. You can also put them in separate files and require them here.
