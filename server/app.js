@@ -20,8 +20,8 @@ io.on("connection", function (socket) {
         socket.broadcast.emit("onmm", point);
     })
 })
-// app.get("/home", function (req, res) {
-//     res.end("<h1>Welcome to home Page</h1>")
+// app.use("/", function (req, res) {
+//     res.send();
 // })
 //  connection
 let port = process.env.PORT || 3000;
